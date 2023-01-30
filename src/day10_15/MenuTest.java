@@ -7,6 +7,7 @@ public class MenuTest {
 		Scanner sc = new Scanner(System.in); 
 		
 		int num = 0;
+		
 		System.out.println();
 		while (num != 5) {
 			do {

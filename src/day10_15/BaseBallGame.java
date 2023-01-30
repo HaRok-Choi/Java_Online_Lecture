@@ -7,6 +7,7 @@ public class BaseBallGame {
 		
 		int[] ball = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 		
+//		숫자를 섞어주는 과정
 		Random ran = new Random();
 		for (int i = 0; i < 100000; i++) {
 			int r = ran.nextInt(9) + 1;
