@@ -25,7 +25,7 @@ public class Iftest2 {
 //		if의 조건을 비교한 결과 조건이 참 일때와 거짓일때 실행항 문장이 
 //		각각 1문장인 경우 사용하면 편리하다.
 //		조건식 ? 조건식이 참일 경우 실행할 내용 : 거짓일 경우 실행
-		System.out.println(year + "년은" + (isLeapYear ? "윤" : "평") + "년입니다.");
+		System.out.println(year + "년은 " + (isLeapYear ? "윤" : "평") + "년입니다.");
 		
 		sc.close();
 		
